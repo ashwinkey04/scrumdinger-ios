@@ -18,6 +18,7 @@
 		CFC53A75279C6C1A00B8068F /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC53A74279C6C1A00B8068F /* DailyScrum.swift */; };
 		CFC53A77279C6E6D00B8068F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC53A76279C6E6D00B8068F /* CardView.swift */; };
 		CFC53A79279C70DE00B8068F /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC53A78279C70DE00B8068F /* TrailingIconLabelStyle.swift */; };
+		CFF43CBC279D20610015E318 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF43CBB279D20610015E318 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		CFC53A74279C6C1A00B8068F /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		CFC53A76279C6E6D00B8068F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CFC53A78279C70DE00B8068F /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		CFF43CBB279D20610015E318 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +108,10 @@
 				CFC53A47279C52E600B8068F /* ScrumdingerApp.swift */,
 				CFC53A49279C52E600B8068F /* MeetingView.swift */,
 				CFC53A76279C6E6D00B8068F /* CardView.swift */,
+				CFC53A78279C70DE00B8068F /* TrailingIconLabelStyle.swift */,
+				CFF43CBB279D20610015E318 /* ScrumsView.swift */,
 				CFC53A4B279C52E700B8068F /* Assets.xcassets */,
 				CFC53A4D279C52E700B8068F /* Preview Content */,
-				CFC53A78279C70DE00B8068F /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				CFC53A75279C6C1A00B8068F /* DailyScrum.swift in Sources */,
 				CFC53A79279C70DE00B8068F /* TrailingIconLabelStyle.swift in Sources */,
 				CFC53A73279C6B0B00B8068F /* Theme.swift in Sources */,
+				CFF43CBC279D20610015E318 /* ScrumsView.swift in Sources */,
 				CFC53A4A279C52E600B8068F /* MeetingView.swift in Sources */,
 				CFC53A48279C52E600B8068F /* ScrumdingerApp.swift in Sources */,
 				CFC53A77279C6E6D00B8068F /* CardView.swift in Sources */,
