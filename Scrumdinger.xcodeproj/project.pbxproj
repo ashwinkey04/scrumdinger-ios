@@ -29,31 +29,12 @@
 		CFF43CD9279DC5430015E318 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF43CD8279DC5430015E318 /* History.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CFC53A55279C52E700B8068F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CFC53A3C279C52E600B8068F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFC53A43279C52E600B8068F;
-			remoteInfo = Scrumdinger;
-		};
-		CFC53A5F279C52E700B8068F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CFC53A3C279C52E600B8068F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFC53A43279C52E600B8068F;
-			remoteInfo = Scrumdinger;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		CFC53A44279C52E600B8068F /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC53A47279C52E600B8068F /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		CFC53A49279C52E600B8068F /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		CFC53A4B279C52E700B8068F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFC53A4E279C52E700B8068F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CFC53A54279C52E700B8068F /* ScrumdingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFC53A5E279C52E700B8068F /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC53A76279C6E6D00B8068F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CFC53A78279C70DE00B8068F /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		CFF43CBB279D20610015E318 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
@@ -80,20 +61,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFC53A51279C52E700B8068F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC53A5B279C52E700B8068F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -109,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				CFC53A44279C52E600B8068F /* Scrumdinger.app */,
-				CFC53A54279C52E700B8068F /* ScrumdingerTests.xctest */,
-				CFC53A5E279C52E700B8068F /* ScrumdingerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,42 +151,6 @@
 			productReference = CFC53A44279C52E600B8068F /* Scrumdinger.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CFC53A53279C52E700B8068F /* ScrumdingerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CFC53A6B279C52E700B8068F /* Build configuration list for PBXNativeTarget "ScrumdingerTests" */;
-			buildPhases = (
-				CFC53A50279C52E700B8068F /* Sources */,
-				CFC53A51279C52E700B8068F /* Frameworks */,
-				CFC53A52279C52E700B8068F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CFC53A56279C52E700B8068F /* PBXTargetDependency */,
-			);
-			name = ScrumdingerTests;
-			productName = ScrumdingerTests;
-			productReference = CFC53A54279C52E700B8068F /* ScrumdingerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CFC53A5D279C52E700B8068F /* ScrumdingerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CFC53A6E279C52E700B8068F /* Build configuration list for PBXNativeTarget "ScrumdingerUITests" */;
-			buildPhases = (
-				CFC53A5A279C52E700B8068F /* Sources */,
-				CFC53A5B279C52E700B8068F /* Frameworks */,
-				CFC53A5C279C52E700B8068F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CFC53A60279C52E700B8068F /* PBXTargetDependency */,
-			);
-			name = ScrumdingerUITests;
-			productName = ScrumdingerUITests;
-			productReference = CFC53A5E279C52E700B8068F /* ScrumdingerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,14 +163,6 @@
 				TargetAttributes = {
 					CFC53A43279C52E600B8068F = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					CFC53A53279C52E700B8068F = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = CFC53A43279C52E600B8068F;
-					};
-					CFC53A5D279C52E700B8068F = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = CFC53A43279C52E600B8068F;
 					};
 				};
 			};
@@ -259,8 +180,6 @@
 			projectRoot = "";
 			targets = (
 				CFC53A43279C52E600B8068F /* Scrumdinger */,
-				CFC53A53279C52E700B8068F /* ScrumdingerTests */,
-				CFC53A5D279C52E700B8068F /* ScrumdingerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,20 +192,6 @@
 				CFF43CD7279DBF690015E318 /* ding.wav in Resources */,
 				CFC53A4F279C52E700B8068F /* Preview Assets.xcassets in Resources */,
 				CFC53A4C279C52E700B8068F /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC53A52279C52E700B8068F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC53A5C279C52E700B8068F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,34 +222,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFC53A50279C52E700B8068F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC53A5A279C52E700B8068F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CFC53A56279C52E700B8068F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CFC53A43279C52E600B8068F /* Scrumdinger */;
-			targetProxy = CFC53A55279C52E700B8068F /* PBXContainerItemProxy */;
-		};
-		CFC53A60279C52E700B8068F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CFC53A43279C52E600B8068F /* Scrumdinger */;
-			targetProxy = CFC53A5F279C52E700B8068F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CFC53A66279C52E700B8068F /* Debug */ = {
@@ -519,78 +397,6 @@
 			};
 			name = Release;
 		};
-		CFC53A6C279C52E700B8068F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.ScrumdingerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumdinger.app/Scrumdinger";
-			};
-			name = Debug;
-		};
-		CFC53A6D279C52E700B8068F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.ScrumdingerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumdinger.app/Scrumdinger";
-			};
-			name = Release;
-		};
-		CFC53A6F279C52E700B8068F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.ScrumdingerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Scrumdinger;
-			};
-			name = Debug;
-		};
-		CFC53A70279C52E700B8068F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.ScrumdingerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Scrumdinger;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -608,24 +414,6 @@
 			buildConfigurations = (
 				CFC53A69279C52E700B8068F /* Debug */,
 				CFC53A6A279C52E700B8068F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CFC53A6B279C52E700B8068F /* Build configuration list for PBXNativeTarget "ScrumdingerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFC53A6C279C52E700B8068F /* Debug */,
-				CFC53A6D279C52E700B8068F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CFC53A6E279C52E700B8068F /* Build configuration list for PBXNativeTarget "ScrumdingerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFC53A6F279C52E700B8068F /* Debug */,
-				CFC53A70279C52E700B8068F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
